@@ -9,7 +9,7 @@
 			$this->hora = $h;
 			$this->min = $m;
 			$this->seg = $s;
-			$this->ancho = $ancho; 
+			$this->ancho = $ancho;
 			$this->alto = $alto;
 			$this->centrox = $ancho/2;
 			$this->centroy = $alto/2;
@@ -20,7 +20,7 @@
 			$ang_rad_div = (2*M_PI)/60;
 			$ang_rad_flecha = 10;
 			for($i=0; $i<60; $i++){
-				$this->arrptosext[$i] = 
+				$this->arrptosext[$i] =
 					new Punto(
 				$this->centrox+$this->radio*cos($ang_rad_ini),
 				$this->centroy+$this->radio*sin($ang_rad_ini) 
