@@ -9,7 +9,7 @@
 			$this->hora = $h;
 			$this->min = $m;
 			$this->seg = $s;
-			$this->ancho = $ancho;
+			$this->ancho = $ancho; 
 			$this->alto = $alto;
 			$this->centrox = $ancho/2;
 			$this->centroy = $alto/2;

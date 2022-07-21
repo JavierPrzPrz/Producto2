@@ -6,7 +6,7 @@
 		public function dibujarReloj($modelo){
 			$this->img = imagecreate($modelo->ancho, $modelo->alto);
 			$this->blanco = imagecolorallocate($this->img, 255, 255, 255);
-			$this->negro = imagecolorallocate($this->img, 0, 0, 0);
+			$this->negro = imagecolorallocate($this->img, 0, 0, 0); 
 			$this->rojo = imagecolorallocate($this->img, 255, 0, 0);
 			$this->verdeclaro = imagecolorallocate($this->img, 196, 237, 220);
 			imagefilledrectangle($this->img, 0, 0, $modelo->ancho, $modelo->alto, $this->blanco);

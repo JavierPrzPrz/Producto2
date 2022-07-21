@@ -1,11 +1,11 @@
 <?php
-	// http://localhost/reloj/index.php?h=1&m=30&s=12
+	//http://localhost/producto%202/index.php?h=7&m=20&s=11
 	header("Content-type: image/png");
 	require_once("Punto.php");
 	require_once("Modelo.php");
 	require_once("Vista.php");
 	require_once("Controlador.php");
-	$v = new Vista();;
+	$v = new Vista();; 
 	$ancho = 400;
 	$alto = 400;
 	$m = new Modelo($_GET['h'], $_GET['m'], $_GET['s'], $ancho, $alto);
